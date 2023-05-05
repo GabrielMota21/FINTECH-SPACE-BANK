@@ -17,7 +17,7 @@ function App() {
       <Video/>
       <Produto/>
       <Pagamento/>
-      <Footer/>
+      
     </div>
   );
 }
