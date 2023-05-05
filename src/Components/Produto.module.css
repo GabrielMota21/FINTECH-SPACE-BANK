@@ -1,0 +1,45 @@
+.Area{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+}
+.TextosProdutos{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TextosProdutos h2{
+    width: 100%;
+    color: #03A64A;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.TextosProdutos p{
+    width: 100%;
+    color: black;
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.botao3{
+    width: 40%;
+    height: 50px;
+    background-color:#03A64A ;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+.cartoes{
+    width: 50%;
+    height: auto;
+}
+.cartoes img{
+    width: 70%;
+    height: auto;
+    margin-top: 60px;
+}
