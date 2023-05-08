@@ -14,14 +14,14 @@ function Section (){
                 </Link>
             </div>
             <div className={Styles.Esquerdo}>
-                <p>VOLTAR </p>
+                
             </div>
             <div className={Styles.Direita}>
                     <h2>LOGIN</h2>
 
                     <div className={Styles.cpf}>
                     <p>CPF:</p>
-                   <input type="number" /> 
+                   <input type="tel" /> 
                    </div>
 
                     <div className={Styles.senha}>
@@ -31,16 +31,21 @@ function Section (){
 
                     <div className={Styles.lembrar}>
                     <input type="checkbox" />
-                    Lembrar-me
+
+                    <p>Lembrar-me</p>
+
+                    <Link className={Styles.Link} to="/">Esqueceu Senha
+                    </Link>
                     </div>
 
                     <div className={Styles.acessar}>
                         <button>
                             ACESSAR
                         </button>
-
-                        <p>Esqueceu Senha</p>
                     </div>
+                    <Link className={Styles.Link2} to="/Cadastro">
+                       <p> Cadastre-se </p>
+                    </Link>
             </div>
         </div>
     )

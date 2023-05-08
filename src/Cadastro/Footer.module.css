@@ -1,0 +1,101 @@
+.Footer{
+    width: 100%;
+    height: auto;
+    background-color:#03A64A ;
+}
+.principal{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.Endereco{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logofooter{
+    width: 50%;
+    height: auto;
+    margin: 0;
+    margin-top: -70px;
+    box-shadow: -10px 10px 7px rgba(0, 0, 0, 0.566) ;
+    border-radius: 100%;
+    animation: logofooter infinite;
+    animation-duration: 1s;
+}
+@keyframes logofooter {
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+  
+}
+.logofooter:hover{
+    transition: all 1s;
+    transform: translate3d(360deg);
+}
+.Endereco p{
+    width: 65%;
+    font-size: 25px;
+    margin-top: 30px;
+    
+}
+.importantes {
+    width: 25%;
+    margin-top: 10px;
+}
+.importantes h2{
+    font-size:30px;
+    width: auto;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.importantes p{
+    font-size: 20px;
+    padding: 6px;
+    margin-top: 10px;
+}
+.seguranca {
+    width: 20%;
+    margin-top: 10px;
+}
+.seguranca h2{
+    font-size: 30px;
+    width: auto;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.seguranca p{
+    font-size: 20px;
+    padding: 6px;
+    margin-top: 10px;
+}
+.icones{
+    width: 25%;
+    display: flex;
+    gap: 20px;
+    
+}
+.icones img{
+    margin: 0;
+    width: 50px;
+    height: auto;
+}
+.img:hover{
+    transition: all 0.3s;
+    transform: translateY(10px);
+    scale: 1.1;
+}
+.img{
+    transition:all 0.3s;
+}
+.p{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+}

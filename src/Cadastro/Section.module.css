@@ -1,0 +1,128 @@
+h1{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    padding: 20px;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Section{
+    width:100%;
+    height:110vh ;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.esquerdo{
+    width: 50%;
+    height: 100vh;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 5%;
+
+}
+.esquerdo h2{
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: left;
+  
+}
+.verde{
+    color: #03A64A;
+}
+.p{
+    width: 60%;
+    margin-top: 10vh;
+    font-size: 30px;
+    text-align: left;
+    
+}
+.icones{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+.icone1{
+    width: 30%;
+    height: 60px;
+    margin: 0;
+}
+.icone2{
+    width: 30%;
+    height: 60px;
+    margin: 0;
+}
+.direito{
+    width: 50%;
+}
+.formulario{
+    width: 80%;
+    height: 60vh;
+    background-color: #ffffff;
+    margin-bottom: 80px;
+    border-radius: 30px;
+    padding: 20px;
+}
+.vagabundagem{
+    height: 50%;
+    
+}
+.nome, .emerson, .celular, .cpf{
+    height: 35%;
+    display: flex;
+    padding: 20px;
+}
+.nome input, .celular input, .celular input, .cpf input{
+    width:80% ;
+    margin-left: 30px;
+    background-color: #03A64A;
+    border-radius: 30px;
+    color:#fff;
+}
+.label{
+    width: 20%;
+    margin-top: 10px;
+}
+.nome{
+    width: 80%;
+    outline: 0;
+    
+}
+.nome::placeholder{
+    color: #fff;   
+}
+.nome:active{
+    border: 1px solid #fff;
+}
+
+.termos{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap:30px ;
+    margin: auto;
+    margin-top: 70px;
+}
+.check{
+    width: 20%;
+}
+.formulario p{
+    color: black;
+}
+button{
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #03A64A;
+    color: #fff;
+    cursor: pointer;
+}
