@@ -1,5 +1,5 @@
 import Styles from "../Components/Pagamento.module.css"
-import Mulhermaquina from "../imagens/Mulhermaquina.png"
+
 
 function Pagamento (){
     return(

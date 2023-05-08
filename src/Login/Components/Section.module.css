@@ -1,0 +1,98 @@
+
+.Login{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+}
+.branco{
+    width: 10%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.voltar{
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.Esquerdo{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../imagens/Login.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+
+}
+.Direita{
+    width: 50%;
+    background-color: black;
+    
+}
+.Direita h2{
+    margin: auto;
+    margin-top: 120px;
+    font-size: 80px;
+    color: #03A64A;
+}
+.Direita p{
+    font-size: 30px;
+}
+.cpf{
+    display: flex;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 95px;
+}
+.cpf input{
+    margin-left: 30px;
+    width: 52%;
+}
+.senha{
+    display: flex;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.senha input{
+    width: 50%;
+    margin-left: 30px;
+}
+.lembrar{
+    color: #ffffff;
+    margin-left: 120px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.lembrar input{
+    width: 10%;
+}
+.acessar{
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    margin-top: 70px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.acessar button{
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #03A64A;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.acessar p{
+    font-size:25px;
+    margin-top: 30px;
+    
+}

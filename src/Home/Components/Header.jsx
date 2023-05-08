@@ -1,5 +1,6 @@
 import Styles from "./Header.module.css"
-import Logo from "../imagens/Logo.png"
+import Logo from "../../imagens/Logo.png"
+import  { Link } from "react-router-dom"
 
 function Header (){
     return(
@@ -15,8 +16,10 @@ function Header (){
 
             <p className={Styles.cliente}>ÁREA DO CLIENTE</p>
 
-            <button className={Styles.botao1}>
-                ABRIR CONTA
+            <button  className={Styles.botao1}>
+               <Link to="/login">
+               Login
+               </Link>
             </button>
             
         </div>

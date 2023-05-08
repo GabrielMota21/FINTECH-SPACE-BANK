@@ -2,7 +2,7 @@
 .Pagamento{
     width: 100% ;
     height: 950px ;
-    background-image: url(../imagens/Mulhermaquina.png);
+    background-image: url(../../imagens/Mulhermaquina.png);
     background-size: cover;
 }
 .card {

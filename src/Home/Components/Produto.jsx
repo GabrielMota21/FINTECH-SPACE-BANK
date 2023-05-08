@@ -1,5 +1,5 @@
 import Styles from "../Components/Produto.module.css"
-import cartoes from "../imagens/cartoes1.png"
+import cartoes from "../../imagens/cartoes1.png"
 
 function Produto (){
     return(

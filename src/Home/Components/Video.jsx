@@ -1,5 +1,5 @@
 import Styles from "./Video.module.css"
-import Iphone from "../imagens/Iphone.png"
+import Iphone from "../../imagens/Iphone.png"
 function Video(){
     return(
         <div className={Styles.Video}>

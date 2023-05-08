@@ -1,4 +1,4 @@
-import Mulher from "../imagens/MulherSlogan.png"
+import Mulher from "../../imagens/MulherSlogan.png"
 import Styles from "./Slogan.module.css"
 
 function Slogan(){

@@ -1,11 +1,11 @@
 import Styles from "../Components/Footer.module.css"
-import logo from "../imagens/Logo.png"
+import logo from "../../imagens/Logo.png"
 
-import link from "../imagens/linkedin.png"
-import facebook from "../imagens/facebook 1.png"
-import instagram from "../imagens/instagram 1.png"
-import youtube from "../imagens/youtube.png"
-import twitter from "../imagens/twitter.png"
+import link from "../../imagens/linkedin.png"
+import facebook from "../../imagens/facebook 1.png"
+import instagram from "../../imagens/instagram 1.png"
+import youtube from "../../imagens/youtube.png"
+import twitter from "../../imagens/twitter.png"
 
 function Footer (){
     return(

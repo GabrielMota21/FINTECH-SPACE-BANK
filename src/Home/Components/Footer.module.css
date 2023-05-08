@@ -22,12 +22,21 @@
     margin-top: -70px;
     box-shadow: -10px 10px 7px rgba(0, 0, 0, 0.566) ;
     border-radius: 100%;
-    transition: all 1s;
-    
+    animation: logofooter infinite;
+    animation-duration: 1s;
+}
+@keyframes logofooter {
+    0%{
+        transform: rotate(0deg);
+        
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+  
 }
 .logofooter:hover{
     transition: all 1s;
-    transform: rotate(360deg);
     transform: translate3d(360deg);
 }
 .Endereco p{
