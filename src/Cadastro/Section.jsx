@@ -28,12 +28,12 @@ function Section(){
                     <div className={Styles.vagabundagem}>
                        <div className={Styles.celular}>
                          <label className={Styles.label} htmlFor=""> Nome:</label>
-                        <input className={Styles.nome} type="text"placeholder="Ex: Willian Rizzo Herculano"   />
+                        <input className={Styles.nome} type="text"placeholder="Ex: Gabriel Da Silva Mota "   />
                         </div>
 
                         <div className={Styles.celular}>
                         <label className={Styles.label} htmlFor="">E-mail:</label>
-                        <input className={Styles.nome} type="email"placeholder="Ex: wendel.bolsonaro22@hotmail.com"   />
+                        <input className={Styles.nome} type="email"placeholder="Ex: motagabriel87488@gmail.com"   />
                         </div> 
                         
                        <div className={Styles.celular}>
