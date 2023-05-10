@@ -17,7 +17,7 @@ function Header (){
             <p className={Styles.cliente}>ÁREA DO CLIENTE</p>
 
             <button  className={Styles.botao1}>
-               <Link to="/login">
+               <Link className={Styles.login} to="/login">
                Login
                </Link>
             </button>

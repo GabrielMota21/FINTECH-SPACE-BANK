@@ -1,6 +1,6 @@
 .Area{
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: #fff;
     display: flex;
 }
@@ -12,27 +12,27 @@
     align-items: center;
 }
 .TextosProdutos h2{
-    width: 100%;
+    width: 50%;
     color: #03A64A;
     font-size: 100px;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 10px;
+    text-align: left;
 }
 .TextosProdutos p{
-    width: 100%;
+    width: 65%;
     color: black;
-    font-size: 80px;
-    margin-top: 40px;
-    margin-left: 80px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 130px;
 }
 .botao3{
-    width: 40%;
+    width: 35%;
     height: 50px;
     background-color:#03A64A ;
     font-size: 20px;
     border-radius: 30px;
-    margin-top: 80px;
-    margin-right: 20px;
+    margin-top: 60px;
+   margin-left: 60px;
 }
 .cartoes{
     width: 50%;

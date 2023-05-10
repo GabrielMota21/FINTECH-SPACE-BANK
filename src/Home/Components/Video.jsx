@@ -1,10 +1,12 @@
 import Styles from "./Video.module.css"
-import Iphone from "../../imagens/Iphone.png"
+import Iphone from "../../imagens/spacecard.png"
+
 function Video(){
     return(
         <div className={Styles.Video}>
 
-            <div>
+            <div data-aos="fade-right" data-aos-once="false" data-aos-duration="2500">
+ 
 
             <img className={Styles.iphone} src={Iphone} alt="" />
 
@@ -18,8 +20,11 @@ function Video(){
                 Peça sem anuidade!
             </button>
             </div>  
-          
+            <script>
+                AOS.init();
+            </script>
         </div>
+        
     )
 }
 export default Video

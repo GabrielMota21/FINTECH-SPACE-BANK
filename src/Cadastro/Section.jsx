@@ -23,7 +23,7 @@ function Section(){
             </div>
             <div className={Styles.direito}>
                     
-                    <div className={Styles.formulario}>
+                    <div className={Styles.formulario} data-aos="fade-left" data-aos-duration="3000">
 
                     <div className={Styles.vagabundagem}>
                        <div className={Styles.celular}>

@@ -5,11 +5,13 @@
     align-items: center;
     background-color: black;
     justify-content: center;
+    
 }
 h3{
     width: 40%;
     color: #fff;
     font-size: 80px;
+    margin-top: 50px;
 }
 .Mulher{
     width: 580px;

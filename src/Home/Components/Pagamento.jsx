@@ -1,6 +1,5 @@
 import Styles from "../Components/Pagamento.module.css"
 
-
 function Pagamento (){
     return(
         <div className={Styles.Pagamento}>
@@ -9,7 +8,7 @@ function Pagamento (){
 
                 <div className={Styles.Textos}>
 
-                <h2>Pague pelo celular</h2>
+                <h2 className={Styles.h2}>Pague pelo celular</h2>
 
                 <p>Aproxime seu celular, ou smartwatch, da maquininha e faça compras sem tirar o cartão da carteira.</p>
 

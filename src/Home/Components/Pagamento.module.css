@@ -13,30 +13,31 @@
     border-radius: 30px;
     margin-top: 320px;
     margin-left: 850px;
-
 }
 .Textos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 .card h2{
     color: #fff;
     font-size: 40px;
+    margin-top: 25px;
 }
 .card p{
     width: 65%;
-    font-size: 30px;
-    margin-top: 15px;
+    font-size: 20px;
     text-align: center;
+    margin-top: 30px;
 }
 .card button{
-    width:40%;
+    width:50%;
     height: 40px;
-    font-size: 20px;
+    background-color: #fff;
+    font-size: 30px;
     border-radius: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
     color:#03A64A;
 }
+

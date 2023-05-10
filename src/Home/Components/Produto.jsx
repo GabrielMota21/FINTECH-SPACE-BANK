@@ -16,7 +16,7 @@ function Produto (){
 
             </div>
 
-            <div className={Styles.cartoes}>
+            <div className={Styles.cartoes} data-aos="fade-left" data-aos-duration="2500">
                 <img src={cartoes} alt="" />
             </div>
         </div>
